@@ -1,0 +1,12 @@
+{
+  "name": "online-register-system",
+  "version": "1.0.0",
+  "description": "Online Register System - Full Stack Application",
+  "private": true,
+  "scripts": {
+    "dev:fe": "cd Frontend && npm run dev",
+    "dev:be": "cd Backend && mvn spring-boot:run",
+    "install:fe": "cd Frontend && npm install",
+    "build:fe": "cd Frontend && npm run build"
+  }
+}
